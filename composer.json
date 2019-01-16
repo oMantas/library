@@ -1,0 +1,24 @@
+{
+    "name": "bent-koks-vardas/folderis",
+    "description": "library example",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Belekas",
+            "email": "belenoks@gmai.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {"Folderis\\": "src/folderis"}  
+    },
+    "autoload-dev": {
+        "psr-4": {"Folderis\\": "tests/folderis"}
+    }
+}
