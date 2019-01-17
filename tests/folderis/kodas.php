@@ -3,7 +3,7 @@ namespace Folderis;
 
 class Kodas {
     public static function belekas(){
-        print "Veikia test";
+        print "Veikia test pakeista";
     }
 }
 
